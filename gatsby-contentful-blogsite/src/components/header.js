@@ -7,6 +7,7 @@ const Header = ({ siteTitle }) => (
     style={{
       background: `rebeccapurple`,
       marginBottom: `1.45rem`,
+      textAlign:"center"
     }}
   >
     <div
@@ -22,6 +23,7 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `white`,
             textDecoration: `none`,
+            textAlign:"center"
           }}
         >
           {siteTitle}

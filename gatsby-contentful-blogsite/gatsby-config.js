@@ -12,6 +12,7 @@ module.exports = {
       options: {
         spaceId: "l67fdi1zcd0i",
         accessToken: "ATOw8qV46itZo_udjA2DuhWcEQTcVWDJG8qGDDWzXz0",
+        forceFullSync: true
       },
     },
     {

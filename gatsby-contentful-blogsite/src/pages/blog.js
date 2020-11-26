@@ -35,9 +35,9 @@ const Blog = () => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <p>
-        <Link to="/">Go back to the homepage</Link>
-      </p>
+      <div className="button">
+        <Link to="/" className="button">Home</Link>
+      </div>
       <ul className="posts">
         {data.allContentfulBlogPost.edges.map(edge => {
           return (
